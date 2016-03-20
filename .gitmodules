@@ -1,0 +1,6 @@
+[submodule "common-utils"]
+	path = common-utils
+	url = https://github.com/mhisoft/common-utils.git
+[submodule "wallet"]
+	path = wallet
+	url = https://github.com/mhisoft/wallet.git
