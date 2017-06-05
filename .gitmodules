@@ -3,4 +3,4 @@
 	url = https://github.com/mhisoft/common-utils.git
 [submodule "wallet"]
 	path = wallet
-	url = https://github.com/mhisoft/wallet.git
+	url = https://github.com/mhisoft/eVault.git
