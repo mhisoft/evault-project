@@ -22,12 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="common-utils" />
-        <module name="wallet" />
+        <module name="evault" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-utils" target="1.8" />
+      <module name="evault" target="1.8" />
       <module name="wallet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
