@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/common-utils" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wallet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../vfsjfilechooser2" vcs="Git" />
   </component>
 </project>
