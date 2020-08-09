@@ -3,7 +3,7 @@ Umbrella projects
 
 clone, check out the apps including submodules
 
-$ git clone --recursive https://github.com/mhisoft/evault-app.git
+$ git clone --recursive https://github.com/mhisoft/evault-project.git
 
 $ git.exe submodule update --init
 
