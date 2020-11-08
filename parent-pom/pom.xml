@@ -32,37 +32,52 @@
     <packaging>pom</packaging>
     <name>common-parent</name>
 
-
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
-<!-- use maven default
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>11</source>   <!-- maven.compiler.source  -->
+                    <target>11</target> <!-- maven.compiler.target -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-    <repositories>
 
-        <repository>
-            <id>public-central</id>
-            <url>https://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
+    <!-- use maven default
 
-    </repositories>
+        <repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>central</id>
-            <url>https://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
+            <repository>
+                <id>public-central</id>
+                <url>https://repo1.maven.org/maven2</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </repository>
 
--->
+        </repositories>
+
+        <pluginRepositories>
+            <pluginRepository>
+                <id>central</id>
+                <url>https://repo1.maven.org/maven2</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+            </pluginRepository>
+        </pluginRepositories>
+
+    -->
 
     <dependencies>
         <dependency>
@@ -71,9 +86,10 @@
             <version>1.9.2</version>
         </dependency>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.5.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
