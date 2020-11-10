@@ -8,240 +8,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d902595-8a71-47a5-a00a-86498dd38d27" name="Default Changelist" comment="upgrade to java 11 in progress. upgraded to junit 5">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/evault-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fifesoft_rsyntaxtextarea_2_5_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jasypt_jasypt_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_com_springsource_org_junit_4_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4d902595-8a71-47a5-a00a-86498dd38d27" name="Default Changelist" comment="add tests for switching JDK from 1.8 to 11">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-utils" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-utils/common-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/common-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-utils/src/test/java/org/mhisoft/common/util/PBEEncryptorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/src/test/java/org/mhisoft/common/util/PBEEncryptorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ewallet-aggregator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageviewer/image-viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imageviewer/image-viewer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageviewer/src/test/java/hu/kazocsaba/imageviewer/gui/SynchronizedScrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/imageviewer/src/test/java/hu/kazocsaba/imageviewer/gui/SynchronizedScrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent-pom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-pom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet" beforeDir="false" afterPath="$PROJECT_DIR$/wallet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/evault-1.3.7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/evault-1.3.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/evault-1.3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/evault-1.3.8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/evault-1.3.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/evault-1.3.8.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/evault-launch4j-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/evault-launch4j-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/COPYRIGHT" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/COPYRIGHT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/THIRDPARTYLICENSEREADME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/Welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/JAWTAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/JavaAccessBridge-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/WindowsAccessBridge-64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/WindowsAccessBridge-64.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/attach.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/attach.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/awt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/awt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/bci.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/dcpr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/decora_sse.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/deploy.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/dt_shmem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/dt_shmem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/dt_socket.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/dt_socket.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/dtplugin/deployJava1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/dtplugin/npdeployJava1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/eula.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/fontmanager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/fontmanager.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/fxplugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/glass.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/glib-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/global-groovy.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/gstreamer-lite.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/hprof.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/instrument.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/instrument.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/j2pcsc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/j2pcsc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/j2pkcs11.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/j2pkcs11.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jaas_nt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jabswitch.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jabswitch.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/java-rmi.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/java.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/java.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/java.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/java.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/java_crw_demo.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javacpl.cpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javacpl.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javafx_font.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javafx_font_t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javafx_iio.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javaw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/javaw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/javaws.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jawt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jawt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jdwp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jdwp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jfr.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jfxmedia.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jfxwebkit.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jjs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jjs.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jli.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jli.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jp2iexp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jp2launcher.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jp2native.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jp2ssv.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jpeg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jsdt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jsound.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/jsound.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/jsoundds.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/kcms.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/keytool.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/keytool.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/kinit.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/kinit.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/klist.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/klist.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/ktab.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/ktab.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/lcms.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/lcms.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/management.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/management.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/mlib_image.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/mlib_image.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/net.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/net.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/nio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/nio.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/npt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/orbd.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/pack200.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/pack200.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/plugin2/msvcr100.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/plugin2/npjp2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/policytool.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/prism_common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/prism_d3d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/prism_es2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/prism_sw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/resource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/rmid.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/rmid.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/rmiregistry.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/rmiregistry.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/sawindbg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/server/Xusage.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/server/classes.jsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/server/jvm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/server/jvm.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/servertool.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/soapui-errors.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/soapui.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/splashscreen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/splashscreen.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/ssv.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/ssvagent.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/sunec.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/sunec.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/sunmscapi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/sunmscapi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/t2k.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/tnameserv.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/unpack.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/unpack.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/unpack200.exe" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/unpack200.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/verify.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/verify.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/w2k_lsa_auth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/w2k_lsa_auth.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/wsdetect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/bin/zip.dll" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/bin/zip.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/accessibility.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/amd64/jvm.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/calendars.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/charsets.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/classlist" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/classlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/cmm/CIEXYZ.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/cmm/GRAY.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/cmm/LINEAR_RGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/cmm/PYCC.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/cmm/sRGB.pf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/content-types.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/currency.data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/ffjcext.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_es.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_ja.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_ko.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_pt_BR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_sv.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_zh_HK.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/messages_zh_TW.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/splash.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/deploy/splash@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/access-bridge-64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/cldrdata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/dnsns.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/jaccess.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/jfxrt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/localedata.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/nashorn.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/sunec.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/sunjce_provider.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/sunmscapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/sunpkcs11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/ext/zipfs.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/flavormap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fontconfig.bfc" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/fontconfig.bfc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fontconfig.properties.src" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/fontconfig.properties.src" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaBrightDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaBrightDemiItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaBrightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaBrightRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaSansDemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaSansRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaTypewriterBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/fonts/LucidaTypewriterRegular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/hijrah-config-umalqura.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/cursors.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/invalid32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_CopyDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_CopyNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_LinkDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_LinkNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_MoveDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/images/cursors/win32_MoveNoDrop32x32.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/javafx.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/javaws.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jfr.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jfr/default.jfc" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/jfr/default.jfc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jfr/profile.jfc" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/jfr/profile.jfc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jfxswt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jsse.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/jvm.hprof.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/management-agent.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/management/jmxremote.access" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/management/jmxremote.password.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/management/management.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/management/snmp.acl.template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/meta-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/net.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/plugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/psfont.properties.ja" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/psfont.properties.ja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/psfontj2d.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/psfontj2d.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/resources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/rt.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/security/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/security/US_export_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/security/cacerts" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/security/cacerts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/security/local_policy.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/security/saved_security.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/sound.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/tzdb.dat" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/tzdb.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/dist/jre/lib/tzmappings" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dist/jre/lib/tzmappings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/evault.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/evault.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/LoadWalletAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/LoadWalletAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/OpenWalletFileAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/OpenWalletFileAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/SaveWalletAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/SaveWalletAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/VerifyPasswordAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/VerifyPasswordAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/AttachmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/AttachmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/WalletService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/WalletService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/view/WalletForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/view/WalletForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/AttachmentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/AttachmentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/WalletModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/WalletModelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +77,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
-  <component name="RunManager" selected="Application.evault-main-form">
+  <component name="RunManager" selected="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJson">
     <configuration name="evault-main-form" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.mhisoft.wallet.WalletMain" />
       <module name="evault" />
@@ -313,22 +98,6 @@
       <module name="image-viewer" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JceEnryptionTest.testEncrypt2_reInitEngine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common-utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.mhisoft.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.mhisoft.common.util" />
-      <option name="MAIN_CLASS_NAME" value="org.mhisoft.common.util.JceEnryptionTest" />
-      <option name="METHOD_NAME" value="testEncrypt2_reInitEngine" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -367,21 +136,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WalletModelTest.whenSerializeAndDeserializeUsingJson" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="evault" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mhisoft.wallet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mhisoft.wallet" />
+      <option name="MAIN_CLASS_NAME" value="org.mhisoft.wallet.WalletModelTest" />
+      <option name="METHOD_NAME" value="whenSerializeAndDeserializeUsingJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="evault" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mhisoft.wallet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mhisoft.wallet" />
+      <option name="MAIN_CLASS_NAME" value="org.mhisoft.wallet.WalletModelTest" />
+      <option name="METHOD_NAME" value="whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.evault-main-form" />
-      <item itemvalue="JUnit.JceEnryptionTest.testEncrypt2_reInitEngine" />
       <item itemvalue="JUnit.All in image-viewer" />
       <item itemvalue="JUnit.All in image-viewer (1)" />
       <item itemvalue="JUnit.PBEEncryptorTest" />
       <item itemvalue="JUnit.PBEEncryptorTest.testEnc_withJDK8_descwithJDK11" />
+      <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
+      <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
         <item itemvalue="JUnit.PBEEncryptorTest" />
         <item itemvalue="JUnit.PBEEncryptorTest.testEnc_withJDK8_descwithJDK11" />
         <item itemvalue="JUnit.All in image-viewer (1)" />
         <item itemvalue="JUnit.All in image-viewer" />
-        <item itemvalue="JUnit.JceEnryptionTest.testEncrypt2_reInitEngine" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +201,8 @@
       <workItem from="1604775267580" duration="752000" />
       <workItem from="1604776228868" duration="2576000" />
       <workItem from="1604848581027" duration="9913000" />
-      <workItem from="1604942270766" duration="4176000" />
+      <workItem from="1604942270766" duration="4957000" />
+      <workItem from="1604964176454" duration="3199000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade to java 11 in progress. upgraded to junit 5">
       <created>1604854118312</created>
@@ -427,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604854395712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add tests for switching JDK from 1.8 to 11">
+      <created>1604946662659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604946662659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +281,8 @@
     </ignored-roots>
     <MESSAGE value="remove the 1.6 source and target" />
     <MESSAGE value="upgrade to java 11 in progress. upgraded to junit 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade to java 11 in progress. upgraded to junit 5" />
+    <MESSAGE value="add tests for switching JDK from 1.8 to 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for switching JDK from 1.8 to 11" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="211" key="#Project_Structure" timestamp="1604855303948">
@@ -480,6 +293,10 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="846" y="343" width="1089" height="835" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604944175441" />
+    <state x="1097" y="428" key="#com.intellij.ide.util.MemberChooser" timestamp="1604966960075">
+      <screen x="0" y="0" width="2560" height="1403" />
+    </state>
+    <state x="1097" y="428" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1403@0.0.2560.1403" timestamp="1604966960075" />
     <state x="1121" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604775412634">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -488,46 +305,46 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state width="478" height="466" key="DebuggerActiveHint/0.0.2560.1403@0.0.2560.1403" timestamp="1604945693841" />
-    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog" timestamp="1604854175552">
+    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog" timestamp="1604947231065">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604854175552" />
+    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604947231065" />
     <state x="1503" y="473" key="FileChooserDialogImpl" timestamp="1604857422893">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1503" y="473" key="FileChooserDialogImpl/0.0.2560.1403@0.0.2560.1403" timestamp="1604857422893" />
-    <state width="2084" height="389" key="GridCell.Tab.0.bottom" timestamp="1604946284390">
+    <state width="2084" height="513" key="GridCell.Tab.0.bottom" timestamp="1604967367790">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="389" key="GridCell.Tab.0.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604946284390" />
-    <state width="2084" height="389" key="GridCell.Tab.0.center" timestamp="1604946284390">
+    <state width="2084" height="513" key="GridCell.Tab.0.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
+    <state width="2084" height="513" key="GridCell.Tab.0.center" timestamp="1604967367790">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="389" key="GridCell.Tab.0.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604946284390" />
-    <state width="2084" height="389" key="GridCell.Tab.0.left" timestamp="1604946284390">
+    <state width="2084" height="513" key="GridCell.Tab.0.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
+    <state width="2084" height="513" key="GridCell.Tab.0.left" timestamp="1604967367790">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="389" key="GridCell.Tab.0.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604946284390" />
-    <state width="2084" height="389" key="GridCell.Tab.0.right" timestamp="1604946284390">
+    <state width="2084" height="513" key="GridCell.Tab.0.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
+    <state width="2084" height="513" key="GridCell.Tab.0.right" timestamp="1604967367790">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="389" key="GridCell.Tab.0.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604946284390" />
-    <state width="2084" height="378" key="GridCell.Tab.1.bottom" timestamp="1604945742920">
+    <state width="2084" height="513" key="GridCell.Tab.0.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
+    <state width="2084" height="378" key="GridCell.Tab.1.bottom" timestamp="1604947230993">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604945742920" />
-    <state width="2084" height="378" key="GridCell.Tab.1.center" timestamp="1604945742920">
+    <state width="2084" height="378" key="GridCell.Tab.1.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230993" />
+    <state width="2084" height="378" key="GridCell.Tab.1.center" timestamp="1604947230992">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604945742920" />
-    <state width="2084" height="378" key="GridCell.Tab.1.left" timestamp="1604945742919">
+    <state width="2084" height="378" key="GridCell.Tab.1.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230992" />
+    <state width="2084" height="378" key="GridCell.Tab.1.left" timestamp="1604947230992">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604945742919" />
-    <state width="2084" height="378" key="GridCell.Tab.1.right" timestamp="1604945742920">
+    <state width="2084" height="378" key="GridCell.Tab.1.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230992" />
+    <state width="2084" height="378" key="GridCell.Tab.1.right" timestamp="1604947230993">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604945742920" />
+    <state width="2084" height="378" key="GridCell.Tab.1.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230993" />
     <state x="819" y="291" key="Maven.ArtifactSearchDialog" timestamp="1604849958255">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -536,18 +353,18 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1397" y="468" key="NewModule_or_Project.wizard/0.0.2560.1403@0.0.2560.1403" timestamp="1604854947574" />
-    <state x="1109" y="378" key="RollbackChangesDialog" timestamp="1604854329063">
+    <state x="1109" y="378" key="RollbackChangesDialog" timestamp="1604946675780">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1109" y="378" key="RollbackChangesDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604854329063" />
+    <state x="1109" y="378" key="RollbackChangesDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604946675780" />
     <state x="1113" y="214" width="1038" height="993" key="SettingsEditor" timestamp="1604946449534">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1113" y="214" width="1038" height="993" key="SettingsEditor/0.0.2560.1403@0.0.2560.1403" timestamp="1604946449534" />
-    <state x="1179" y="485" width="540" height="524" key="StructurePopup" timestamp="1604945428065">
+    <state x="1179" y="485" width="540" height="524" key="StructurePopup" timestamp="1604967119799">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1179" y="485" width="540" height="524" key="StructurePopup/0.0.2560.1403@0.0.2560.1403" timestamp="1604945428065" />
+    <state x="1179" y="485" width="540" height="524" key="StructurePopup/0.0.2560.1403@0.0.2560.1403" timestamp="1604967119799" />
     <state x="1320" y="340" key="antBuildFilePropertiesDialogDimension" timestamp="1604848638669">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -560,10 +377,10 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="317" y="100" width="1942" height="1074" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604858547505" />
-    <state x="968" y="246" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604852758818">
+    <state x="968" y="246" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604967343417">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="968" y="246" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1403@0.0.2560.1403" timestamp="1604852758818" />
+    <state x="968" y="246" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1403@0.0.2560.1403" timestamp="1604967343417" />
     <state x="1182" y="589" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604853551763">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -580,10 +397,10 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1173" y="384" key="new project wizard/0.0.2560.1403@0.0.2560.1403" timestamp="1604854891270" />
-    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup" timestamp="1604945921081">
+    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup" timestamp="1604964990918">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup/0.0.2560.1403@0.0.2560.1403" timestamp="1604945921081" />
+    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup/0.0.2560.1403@0.0.2560.1403" timestamp="1604964990918" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
