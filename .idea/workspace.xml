@@ -8,25 +8,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d902595-8a71-47a5-a00a-86498dd38d27" name="Default Changelist" comment="add tests for switching JDK from 1.8 to 11">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+    <list default="true" id="4d902595-8a71-47a5-a00a-86498dd38d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wallet/dist/lib/jasypt-1.9.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-utils" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-utils/common-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/common-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-utils/src/main/java/org/mhisoft/common/util/security/PBEEncryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/src/main/java/org/mhisoft/common/util/security/PBEEncryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-utils/src/main/java/org/mhisoft/common/util/security/StandardPBEByteEncryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-utils/src/main/java/org/mhisoft/common/util/security/StandardPBEByteEncryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent-pom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent-pom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet" beforeDir="false" afterPath="$PROJECT_DIR$/wallet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/dist/lib/jasypt-1.9.2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/evault.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/evault.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/LoadWalletAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/LoadWalletAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/OpenWalletFileAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/OpenWalletFileAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/SaveWalletAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/SaveWalletAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/VerifyPasswordAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/action/VerifyPasswordAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/model/WalletModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/AttachmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/AttachmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/WalletService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/WalletService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/view/WalletForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/view/WalletForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/AttachmentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/AttachmentServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/WalletModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/test/java/org/mhisoft/wallet/WalletModelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +72,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
   </component>
-  <component name="RunManager" selected="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJson">
+  <component name="RunManager" selected="Application.evault-main-form">
     <configuration name="evault-main-form" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.mhisoft.wallet.WalletMain" />
       <module name="evault" />
@@ -94,10 +91,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in image-viewer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="image-viewer" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+    <configuration name="PBEEncryptorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mhisoft.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mhisoft.common.util" />
+      <option name="MAIN_CLASS_NAME" value="org.mhisoft.common.util.PBEEncryptorTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:org.mhisoft.common.util.PBEEncryptorTest]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,20 +179,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.evault-main-form" />
-      <item itemvalue="JUnit.All in image-viewer" />
+      <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJson" />
       <item itemvalue="JUnit.All in image-viewer (1)" />
       <item itemvalue="JUnit.PBEEncryptorTest" />
       <item itemvalue="JUnit.PBEEncryptorTest.testEnc_withJDK8_descwithJDK11" />
       <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
-      <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJson" />
+      <item itemvalue="JUnit.PBEEncryptorTest (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
         <item itemvalue="JUnit.PBEEncryptorTest" />
+        <item itemvalue="JUnit.PBEEncryptorTest (1)" />
+        <item itemvalue="JUnit.WalletModelTest.whenSerializeAndDeserializeUsingJsonio_thenCorrect" />
         <item itemvalue="JUnit.PBEEncryptorTest.testEnc_withJDK8_descwithJDK11" />
         <item itemvalue="JUnit.All in image-viewer (1)" />
-        <item itemvalue="JUnit.All in image-viewer" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +209,8 @@
       <workItem from="1604776228868" duration="2576000" />
       <workItem from="1604848581027" duration="9913000" />
       <workItem from="1604942270766" duration="4957000" />
-      <workItem from="1604964176454" duration="3199000" />
+      <workItem from="1604964176454" duration="5355000" />
+      <workItem from="1605021752430" duration="8168000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade to java 11 in progress. upgraded to junit 5">
       <created>1604854118312</created>
@@ -239,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604946662659</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add the jackson library and test cases for serializing the model and WalletItem">
+      <created>1604967687795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604967687795</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add the jackson library and test cases for serializing the model and WalletItem">
+      <created>1604967730669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604967730669</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +297,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/../imageviewer" />
       <path value="$PROJECT_DIR$/../vfsjfilechooser2" />
@@ -282,7 +306,8 @@
     <MESSAGE value="remove the 1.6 source and target" />
     <MESSAGE value="upgrade to java 11 in progress. upgraded to junit 5" />
     <MESSAGE value="add tests for switching JDK from 1.8 to 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests for switching JDK from 1.8 to 11" />
+    <MESSAGE value="add the jackson library and test cases for serializing the model and WalletItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the jackson library and test cases for serializing the model and WalletItem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="211" key="#Project_Structure" timestamp="1604855303948">
@@ -301,50 +326,54 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1121" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604775412634" />
+    <state x="873" y="280" width="1348" height="864" key="CommitChangelistDialog2" timestamp="1604967730092">
+      <screen x="0" y="0" width="2560" height="1403" />
+    </state>
+    <state x="873" y="280" width="1348" height="864" key="CommitChangelistDialog2/0.0.2560.1403@0.0.2560.1403" timestamp="1604967730092" />
     <state width="478" height="466" key="DebuggerActiveHint" timestamp="1604945693841">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state width="478" height="466" key="DebuggerActiveHint/0.0.2560.1403@0.0.2560.1403" timestamp="1604945693841" />
-    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog" timestamp="1604947231065">
+    <state x="136" y="65" width="1942" height="1074" key="DiffContextDialog" timestamp="1605060112203">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="393" y="139" width="1942" height="1074" key="DiffContextDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604947231065" />
-    <state x="1503" y="473" key="FileChooserDialogImpl" timestamp="1604857422893">
+    <state x="136" y="65" width="1942" height="1074" key="DiffContextDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1605060112203" />
+    <state x="1503" y="473" key="FileChooserDialogImpl" timestamp="1605060079620">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1503" y="473" key="FileChooserDialogImpl/0.0.2560.1403@0.0.2560.1403" timestamp="1604857422893" />
-    <state width="2084" height="513" key="GridCell.Tab.0.bottom" timestamp="1604967367790">
+    <state x="1503" y="473" key="FileChooserDialogImpl/0.0.2560.1403@0.0.2560.1403" timestamp="1605060079620" />
+    <state width="2330" height="374" key="GridCell.Tab.0.bottom" timestamp="1605060328686">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="513" key="GridCell.Tab.0.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
-    <state width="2084" height="513" key="GridCell.Tab.0.center" timestamp="1604967367790">
+    <state width="2330" height="374" key="GridCell.Tab.0.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1605060328686" />
+    <state width="2330" height="374" key="GridCell.Tab.0.center" timestamp="1605060328686">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="513" key="GridCell.Tab.0.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
-    <state width="2084" height="513" key="GridCell.Tab.0.left" timestamp="1604967367790">
+    <state width="2330" height="374" key="GridCell.Tab.0.center/0.0.2560.1403@0.0.2560.1403" timestamp="1605060328686" />
+    <state width="2330" height="374" key="GridCell.Tab.0.left" timestamp="1605060328686">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="513" key="GridCell.Tab.0.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
-    <state width="2084" height="513" key="GridCell.Tab.0.right" timestamp="1604967367790">
+    <state width="2330" height="374" key="GridCell.Tab.0.left/0.0.2560.1403@0.0.2560.1403" timestamp="1605060328686" />
+    <state width="2330" height="374" key="GridCell.Tab.0.right" timestamp="1605060328686">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="513" key="GridCell.Tab.0.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604967367790" />
-    <state width="2084" height="378" key="GridCell.Tab.1.bottom" timestamp="1604947230993">
+    <state width="2330" height="374" key="GridCell.Tab.0.right/0.0.2560.1403@0.0.2560.1403" timestamp="1605060328686" />
+    <state width="2330" height="389" key="GridCell.Tab.1.bottom" timestamp="1605060253096">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230993" />
-    <state width="2084" height="378" key="GridCell.Tab.1.center" timestamp="1604947230992">
+    <state width="2330" height="389" key="GridCell.Tab.1.bottom/0.0.2560.1403@0.0.2560.1403" timestamp="1605060253096" />
+    <state width="2330" height="389" key="GridCell.Tab.1.center" timestamp="1605060253096">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.center/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230992" />
-    <state width="2084" height="378" key="GridCell.Tab.1.left" timestamp="1604947230992">
+    <state width="2330" height="389" key="GridCell.Tab.1.center/0.0.2560.1403@0.0.2560.1403" timestamp="1605060253096" />
+    <state width="2330" height="389" key="GridCell.Tab.1.left" timestamp="1605060253096">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.left/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230992" />
-    <state width="2084" height="378" key="GridCell.Tab.1.right" timestamp="1604947230993">
+    <state width="2330" height="389" key="GridCell.Tab.1.left/0.0.2560.1403@0.0.2560.1403" timestamp="1605060253096" />
+    <state width="2330" height="389" key="GridCell.Tab.1.right" timestamp="1605060253096">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state width="2084" height="378" key="GridCell.Tab.1.right/0.0.2560.1403@0.0.2560.1403" timestamp="1604947230993" />
+    <state width="2330" height="389" key="GridCell.Tab.1.right/0.0.2560.1403@0.0.2560.1403" timestamp="1605060253096" />
     <state x="819" y="291" key="Maven.ArtifactSearchDialog" timestamp="1604849958255">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -357,10 +386,10 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1109" y="378" key="RollbackChangesDialog/0.0.2560.1403@0.0.2560.1403" timestamp="1604946675780" />
-    <state x="1113" y="214" width="1038" height="993" key="SettingsEditor" timestamp="1604946449534">
+    <state x="1113" y="214" width="1038" height="993" key="SettingsEditor" timestamp="1605060111872">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1113" y="214" width="1038" height="993" key="SettingsEditor/0.0.2560.1403@0.0.2560.1403" timestamp="1604946449534" />
+    <state x="1113" y="214" width="1038" height="993" key="SettingsEditor/0.0.2560.1403@0.0.2560.1403" timestamp="1605060111872" />
     <state x="1179" y="485" width="540" height="524" key="StructurePopup" timestamp="1604967119799">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
@@ -397,10 +426,10 @@
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
     <state x="1173" y="384" key="new project wizard/0.0.2560.1403@0.0.2560.1403" timestamp="1604854891270" />
-    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup" timestamp="1604964990918">
+    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup" timestamp="1605059543090">
       <screen x="0" y="0" width="2560" height="1403" />
     </state>
-    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup/0.0.2560.1403@0.0.2560.1403" timestamp="1604964990918" />
+    <state x="1055" y="339" width="672" height="678" key="search.everywhere.popup/0.0.2560.1403@0.0.2560.1403" timestamp="1605059543090" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,6 +443,11 @@
           <url>file://$PROJECT_DIR$/wallet/src/main/java/org/mhisoft/wallet/service/WalletService.java</url>
           <line>304</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-utils/src/main/java/org/mhisoft/common/util/security/StandardPBEByteEncryptor.java</url>
+          <line>1156</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="org.jasypt.exceptions.EncryptionOperationNotPossibleException" package="org.jasypt.exceptions" />
