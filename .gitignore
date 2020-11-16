@@ -57,6 +57,8 @@ buildNumber.properties
 .idea/**/dictionaries
 .idea/**/shelf
 .idea/**/libraries
+.idea/**/gradle.xml
+.idea/**/vcs.xml
 
 ### Windows template
 # Windows image file caches
