@@ -42,16 +42,6 @@
 
     <repositories>
 
-<!-- use maven default
-        <repository>
-            <id>public-central</id>
-            <url>https://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-        </repository>
--->
-		
 		<repository>
 			<id>localRepo</id>
 			<releases>
@@ -64,20 +54,19 @@
 			<url>file://${project.basedir}/../localRepo</url>
 		</repository>
 
-    </repositories>
-
-    <pluginRepositories>
-
-<!-- use maven default
-        <pluginRepository>
-            <id>central</id>
+        <!-- use maven default -->
+        <repository>
+            <id>public-central</id>
             <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
-        </pluginRepository>
--->
+        </repository>
 
+
+    </repositories>
+
+    <pluginRepositories>
 		<pluginRepository>
 			<id>localRepo</id>
 			<releases>
@@ -89,6 +78,17 @@
 			</snapshots>
 			<url>file://${project.basedir}/../localRepo</url>
 		</pluginRepository>
+
+        <!-- use maven default -->
+        <pluginRepository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+
+
     </pluginRepositories>
 
 
