@@ -10,13 +10,16 @@ $ git.exe submodule update --init
 * after check out , go to sub modules , switch to master
 there are two sub modules: wallet , common-utils
 
-\evault-app\wallet>git checkout master
-git pull
+`\evault-app\wallet>git checkout master`
+
+`git pull`
+
 ```
   Previous HEAD position was cd8dcb4... add
   Switched to branch 'master'
   Your branch is up-to-date with 'origin/master'.
   ```
 
-\evault-app\common-utils>git checkout master
-git pull
+`\evault-app\common-utils>git checkout master`
+
+`git pull`
